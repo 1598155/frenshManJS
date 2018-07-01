@@ -14,6 +14,15 @@ function bubble()
 	
 	}
 
+function bubble1(id)
+{
+	 document.getElementById(id).value = 100;
+
+	
+	}
+
+
+
 function sortBubble()
 {
 	var listNumber= new Array(1,3,9,7,5,4,3);
@@ -44,6 +53,9 @@ function swap(x,y)
   y = temp;
 
 }
+
+
+
 
 
 
